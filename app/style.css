@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { font: 16px/1.4 system-ui, sans-serif; margin: 0; background: #f6f4ef; color: #222; }
+header { background: #2b4a6f; padding: 12px 20px; }
+header a { color: #fff; text-decoration: none; }
+h1 { margin: 0; font-size: 1.4rem; }
+main { max-width: 640px; margin: 20px auto; padding: 0 16px; }
+form, .card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 14px; margin-bottom: 14px; }
+label { display: block; margin-bottom: 8px; font-size: .9rem; }
+input { width: 100%; padding: 8px; font: inherit; }
+button { padding: 8px 14px; font: inherit; cursor: pointer; border: 0; border-radius: 6px; background: #2b4a6f; color: #fff; }
+button.link { background: none; color: #a22; padding: 2px 6px; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.badge { font-size: .8rem; padding: 2px 8px; border-radius: 10px; background: #dfe9d9; }
+.badge.full { background: #f3d9d9; }
+.error { color: #a22; margin: 6px 0; }
+ul { list-style: none; padding: 0; margin: 0 0 12px; }
+li { padding: 6px 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
+.muted { color: #777; }
+a.sheet { text-decoration: none; color: inherit; display: block; }
